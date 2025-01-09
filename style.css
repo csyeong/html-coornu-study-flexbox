@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+}
+
+.black-box{
+    background-color: black;
+    width: 100px;
+    height: 100px;
+    color: white;
+}
+
+.gray-box{
+    background-color: gray;
+    width: 100px;
+    height: 100px;
+    color: white;
+}
+
+.index1-first-box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.index1-second-box{
+    display: flex;
+    justify-content: end;
+}
+
+.ml{
+    margin-left: 5px;
+}
+
+.index2-center{
+    display: flex;
+    justify-content: center;
+}
+
+.index2-end{
+    display: flex;
+    justify-content: end;
+}
+
+.index3-first-box{
+    display: flex;
+    justify-content: center;
+}
+
+.index3-big{
+    position: relative;
+    width: 200px;
+    height: 200px;
+}
+
+.index3-center{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+.index4-position{
+    position: relative;
+    top: -50px;
+    left: 50px;
+}
+
+.index5-first-box{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.index5-big{
+    width: 400px;
+    height: 150px;
+}
+
+.index5-box2{
+    position: absolute;
+    bottom: 0;
+}
+
+.index5-box3{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
